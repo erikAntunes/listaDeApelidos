@@ -47,9 +47,9 @@ public class main {
         System.out.println("Existem "+apelidos.size()+" Pessoas, nesta lista de Apelidos");
         System.out.println("_____________________________________________");
 
-        for (String umaChave : apelidos.keySet()) {
-            List pessoa = apelidos.get(umaChave);
-            String pessoaEApelidos = umaChave + " - " + pessoa;
+        for (String chaveNome : apelidos.keySet()) {
+            List pessoa = apelidos.get(chaveNome);
+            String pessoaEApelidos = chaveNome + " - " + pessoa;
             System.out.println(pessoaEApelidos);
         }
         System.out.println("_____________________________________________");
